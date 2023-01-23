@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lint-staged": "^13.1.0",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.3",
+    "rimraf": "^4.1.1"
+  }
 }
