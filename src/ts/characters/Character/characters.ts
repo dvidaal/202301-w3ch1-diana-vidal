@@ -39,7 +39,7 @@ const bronnData: CharacterDataStructure = {
   imageSource: "../img/bronn.jpg",
 };
 
-const joffrey: King = new King(joffreyData, 2);
+export const joffrey: King = new King(joffreyData, 2);
 const jaime = new Fighter(jaimeData, "sword", 7);
 const daenerys = new Fighter(daeneryseData, "Dragons", 10);
 const tyrion = new Advisor(tyrionData, daenerys);

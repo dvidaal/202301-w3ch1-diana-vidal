@@ -1,7 +1,14 @@
-import { Character } from "./characters/Character/Character";
-import { Advisor } from "./characters/Advisor/Advisor";
-import { Fighter } from "./characters/Fighter/Fighter";
-import { King } from "./characters/King/King";
-import { Squire } from "./characters/Squire/Squire";
-import { type CharacterDataStructure } from "./characters/Character/CharacterDataStructure";
-import { characters } from "./characters/Character/characters";
+import { joffrey } from "./characters/Character/characters";
+import { CharacterCardComponent } from "./components/Card/CharacterCardComponent";
+import { CharacterCardContainer } from "./components/Card/CharacterCardContainer";
+
+const container = document.querySelector(".container")!;
+
+const king = new CharacterCardComponent(container, joffrey, "card-body");
+
+const characterCard = document.querySelector(".character__card")!;
+
+const characterContainer = new CharacterCardContainer(
+  container,
+  ".character__card"
+);
